@@ -6,8 +6,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 1887,
-    "sha256": "eb9e09e1bece353f91e51b3543a900b73a8c1139b90692a010cca346517849ea"
+    "bytes": 1998,
+    "sha256": "9becdf7cc3d184505cf7e3b869362895895862d03c7f70d2238c659bdbcbb0cb"
   },
   {
     "path": "current/.gitignore",
@@ -446,13 +446,13 @@
   },
   {
     "path": "docs/RETIREMENT.md",
-    "bytes": 894,
-    "sha256": "f4bdf047a4054409f692916b04bbc70e5747170a4f710c7c2074b3e3b012ff08"
+    "bytes": 953,
+    "sha256": "f87a180c9761934ca9038cdc3a25ca5dfcb24b50f87d6d44bf248e86c104e9a3"
   },
   {
     "path": "docs/RETIREMENT_STATUS.json",
-    "bytes": 463,
-    "sha256": "82c797f729e3e1c304e3b7d1e2d2f54701387085ba6632dadc73ecbf3fb98f97"
+    "bytes": 457,
+    "sha256": "4968dd677ef990f5f6caace83b61957cf57ead37c4b692e1e3fe81393ea0cf3d"
   },
   {
     "path": "evidence/friend-tunnel-live-stall.json",
