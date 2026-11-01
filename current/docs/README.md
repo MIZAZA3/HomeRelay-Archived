@@ -1,4 +1,6 @@
-# HomeRelay Direct V4.4
+# HomeRelay Direct V4.4
+
+> 历史文档：原部署已退役。本页“当前/已发布”指当时状态，不表示现在在线；current/server另含未上线V4.5。请先读[仓库首页](../../README.md)和[新使用手册](../../docs/USAGE.md)。
 
 2026-11-01，北京时间。已定向发布到现有 Ubuntu 服务器；朋友通用出口端不变，旧接收器退出使用链路。
 

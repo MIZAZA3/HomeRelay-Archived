@@ -6,8 +6,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 1998,
-    "sha256": "9becdf7cc3d184505cf7e3b869362895895862d03c7f70d2238c659bdbcbb0cb"
+    "bytes": 5360,
+    "sha256": "fc51c1aaf6b40f9800f0f107730d2bdf903958e064bef642cb5358f166011e1f"
   },
   {
     "path": "current/.gitignore",
@@ -121,13 +121,13 @@
   },
   {
     "path": "current/docs/OPERATIONS.md",
-    "bytes": 12731,
-    "sha256": "ab021410ee6284c1f542c70ffc3cd65774c73d2504243ad6ba58c1fe7574a606"
+    "bytes": 12992,
+    "sha256": "5fe6e02295f4e6b1da79ac0e95909da1f971df2dfa5041859a23b4f8f91908d8"
   },
   {
     "path": "current/docs/README.md",
-    "bytes": 11591,
-    "sha256": "426aa3e6bf442446bbdf74e5dc609380c05c6abf225d292b763e50c88181a388"
+    "bytes": 11822,
+    "sha256": "8122dae5b8d9d1aea7996747947fffaa4ec083cf1d894424093811fa43f63c06"
   },
   {
     "path": "current/docs/SECURITY_REVIEW.md",
@@ -441,8 +441,23 @@
   },
   {
     "path": "docs/ARCHIVE_SCOPE.md",
-    "bytes": 719,
-    "sha256": "8470231c03e22c99288938ed000b93356ce5f43fa78040a96d6b4319cdfda1b5"
+    "bytes": 941,
+    "sha256": "acc5b4c9011fa38d47033cb69385a523e8eef61363f2b9c9c5f9fc153062be25"
+  },
+  {
+    "path": "docs/BUILD_AND_DEPLOY.md",
+    "bytes": 10796,
+    "sha256": "24f434d577f839d22c6af73f837dccef93cd59cdfeed5e66b17ab68f68b6338a"
+  },
+  {
+    "path": "docs/FEATURES.md",
+    "bytes": 6163,
+    "sha256": "3ee12e97b323e35601861b2e6beb3760ebac87001d6f54933f1d74ad62f464c6"
+  },
+  {
+    "path": "docs/PUBLICATION.md",
+    "bytes": 3158,
+    "sha256": "421512f86291ec2d9e787acf3732d99d2680bee47bab7bcc3d19c58774a65bc6"
   },
   {
     "path": "docs/RETIREMENT.md",
@@ -451,8 +466,18 @@
   },
   {
     "path": "docs/RETIREMENT_STATUS.json",
-    "bytes": 457,
-    "sha256": "4968dd677ef990f5f6caace83b61957cf57ead37c4b692e1e3fe81393ea0cf3d"
+    "bytes": 456,
+    "sha256": "4973ad27c5a2588cb9909eacad2c4ffa81a382350d317113fe57654de5386010"
+  },
+  {
+    "path": "docs/TROUBLESHOOTING.md",
+    "bytes": 4787,
+    "sha256": "9f388df2b65cfe0e5fea0b740ff7d26d231903d6d2efa4795a42d5d79b51268c"
+  },
+  {
+    "path": "docs/USAGE.md",
+    "bytes": 8973,
+    "sha256": "93ccf5688defaaed369932e7435ac93325a0f030e541dde7fd9618f344ac0957"
   },
   {
     "path": "evidence/friend-tunnel-live-stall.json",
