@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-11-01 Asia/Shanghai",
+  "server_project_removed": true,
+  "website_relay_endpoints": 404,
+  "business_website_preserved": true,
+  "management_ssh_preserved": true,
+  "host_tcp_udp_24443_removed": true,
+  "cloud_tcp_udp_24443_rules": "awaiting_user_confirmation",
+  "private_backup_stored_off_server": true,
+  "credentials_in_this_repository": false,
+  "v45_draft_published_to_server": false,
+  "repository_visibility": "private"
+}

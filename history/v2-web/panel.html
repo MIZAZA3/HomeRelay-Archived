@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>家宽出口管理</title><link rel="stylesheet" href="style.css"><body>
+<header><div><span class="brand">HOME RELAY / V2</span><h1>家宽出口管理</h1><p>出口端自动报到，你决定何时启用。独立 HTTPS 管理入口，与原网站账号分开。</p></div><button id="logout" hidden>退出登录</button></header>
+<main><section id="login" class="login"><h2>登录家宽管理面板</h2><p>请输入家宽管理口令。与原网站会员密码、SSH 密码无关。</p><form id="loginForm"><label>管理口令<input id="password" type="password" autocomplete="current-password" required></label><button class="primary" type="submit">登录管理面板</button></form></section>
+<section id="dashboard" hidden><div class="metrics"><article><span>已登记</span><strong id="total">0</strong></article><article><span>在线</span><strong id="online">0</strong></article><article><span>待启用</span><strong id="pending">0</strong></article><article><span>已启用</span><strong id="enabled">0</strong></article></div>
+<div class="sectionhead"><div><h2>出口节点</h2><p>同一身份重新上线不会重复登记。节点名可自行备注。</p></div><button id="refresh">立即刷新</button></div>
+<div class="notice">“启用”才接收新流量；“闲置”不接新流量，已有连接自然结束；“拒绝 / 停用”会中断本节点流量。连接来源 IP 与实测出口 IP 可能不同。</div>
+<div id="empty" class="empty">还没有出口端报到。把通用出口端发给朋友，让对方点击“启动转发”即可。</div><div id="nodes" class="nodes"></div><footer id="limits"></footer></section>
+<p id="message" role="status" aria-live="polite"></p></main><script src="app.js" defer></script></body></html>

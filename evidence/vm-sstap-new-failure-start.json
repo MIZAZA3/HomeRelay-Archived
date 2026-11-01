@@ -1,0 +1,31 @@
+{
+  "now": 1793522352.2016194,
+  "heartbeat_age": 1.0334622859954834,
+  "state": "enabled",
+  "tunnel_reported": true,
+  "diagnostics": {
+    "time": 1793522350.0344956,
+    "metrics": {
+      "rejected_offline_state": 30,
+      "accepted": 511,
+      "upstream_reply_timeout": 40,
+      "closed": 479,
+      "transfer_eof": 282,
+      "reclaimed_dns": 267,
+      "transfer_timeout": 53,
+      "transfer_closed": 6,
+      "rejected_node_capacity": 1612
+    },
+    "active": {
+      "udp": 29,
+      "negotiating": 1,
+      "tcp": 2
+    },
+    "active_total": 32,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 80
+  },
+  "services": "MainPID=2260008\nNRestarts=0\nId=home-relay-v2-controller.service\nActiveState=active\n\nMainPID=2154018\nNRestarts=0\nId=home-relay-web.service\nActiveState=active\n\nMainPID=2072001\nNRestarts=0\nId=ssh.service\nActiveState=active\n"
+}

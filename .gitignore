@@ -1,0 +1,16 @@
+private/
+identity/
+runtime/
+__pycache__/
+*.pyc
+*.sqlite*
+*.db
+*.key
+*.pem
+*.pfx
+*.p12
+*.exe
+*.dll
+*.sys
+.env
+*.local.json

@@ -1,0 +1,5 @@
+{"progress_dns": 10, "success": 10}
+{"progress_dns": 20, "success": 20}
+{"progress_dns": 30, "success": 30}
+{"progress_dns": 40, "success": 40}
+{"dns": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], "https": [{"host": "ip77.net", "after_dns": 10, "ok": true, "response": "HTTP/1.1 200 OK"}, {"host": "one.tarenwang.net", "after_dns": 20, "ok": true, "response": "HTTP/1.1 200 OK"}, {"host": "ip77.net", "after_dns": 30, "ok": true, "response": "HTTP/1.1 200 OK"}, {"host": "one.tarenwang.net", "after_dns": 40, "ok": true, "response": "HTTP/1.1 200 OK"}], "same_socket_reuse": [true, true, true, true, true], "dns_success": 40, "dns_total": 40}

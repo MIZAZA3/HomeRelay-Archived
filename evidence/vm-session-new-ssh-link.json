@@ -1,0 +1,51 @@
+{
+  "seen_age": 10.55318307876587,
+  "tunnel_reported": true,
+  "method_ok": true,
+  "auth_ok": true,
+  "seconds": 0.86,
+  "diagnostics": {
+    "time": 1793523185.3955333,
+    "metrics": {
+      "accepted": 69,
+      "upstream_auth_timeout": 59,
+      "closed": 63,
+      "upstream_reply_timeout": 4
+    },
+    "active": {
+      "udp": 2,
+      "tcp": 4
+    },
+    "active_total": 6,
+    "completed_dns": 2,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 27,
+    "udp_states": [
+      {
+        "kind": "matched_dns",
+        "stage": "transfer",
+        "pending": 0,
+        "age_seconds": 60.0,
+        "idle_seconds": 58.3,
+        "busy": 0,
+        "up_packets": 1,
+        "down_packets": 1
+      },
+      {
+        "kind": "matched_dns",
+        "stage": "transfer",
+        "pending": 0,
+        "age_seconds": 35.5,
+        "idle_seconds": 33.8,
+        "busy": 0,
+        "up_packets": 1,
+        "down_packets": 1
+      }
+    ]
+  },
+  "ssh_processes": [
+    "2278859 2072001 root     sshd: gost-home-auto [priv]",
+    "2278947 2278859 gost-ho+ sshd: gost-home-auto"
+  ]
+}

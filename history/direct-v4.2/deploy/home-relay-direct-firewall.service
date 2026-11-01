@@ -1,0 +1,10 @@
+[Unit]
+Description=HomeRelay UID-scoped outbound containment
+After=ufw.service
+Before=home-relay-v2-controller.service
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/sbin/home-relay-direct-firewall.py
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,42 @@
+{
+  "time": 1793522979.4072125,
+  "seen_age": 5.6558897495269775,
+  "tunnel_reported": false,
+  "direct_friend_socks": [
+    {
+      "failed_at": "method",
+      "error": "TimeoutError",
+      "seconds": 6.01
+    },
+    {
+      "failed_at": "method",
+      "error": "TimeoutError",
+      "seconds": 6.01
+    }
+  ],
+  "restricted_ssh_links": [
+    {
+      "state": "ESTAB",
+      "recv_queue": "0",
+      "send_queue": "18928",
+      "tcp_stats": "cubic wscale:8,7 rto:120000 backoff:11 rtt:232.843/34.372 ato:71 mss:1360 pmtu:1500 rcvmss:1360 advmss:1460 cwnd:1 ssthresh:21 bytes_sent:1110831 bytes_retrans:18360 bytes_acked:1091247 bytes_received:2436837 segs_out:10213 segs_in:17877 data_segs_out:3100 data_segs_in:16897 send 46727bps lastsnd:104801 lastrcv:592206 lastack:592206 pacing_rate 2897056bps delivery_rate 110056bps delivered:3084 app_limited busy:1224833ms unacked:1 retrans:1/15 lost:1 reord_seen:1 rcv_rtt:25625.1 rcv_space:422076 rcv_ssthresh:3232596 notsent:17704 minrtt:193.608 snd_wnd:131840"
+    }
+  ],
+  "diagnostics": {
+    "time": 1793522987.1340756,
+    "metrics": {
+      "accepted": 59,
+      "upstream_auth_timeout": 58,
+      "closed": 58
+    },
+    "active": {
+      "negotiating": 1
+    },
+    "active_total": 1,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 17,
+    "udp_states": []
+  }
+}

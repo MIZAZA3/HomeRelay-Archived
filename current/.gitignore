@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+private/
+*.sqlite3*
+*.local.json

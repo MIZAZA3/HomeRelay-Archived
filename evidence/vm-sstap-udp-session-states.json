@@ -1,0 +1,138 @@
+[
+  {
+    "time": 1793522734.8215687,
+    "metrics": {
+      "accepted": 12,
+      "upstream_auth_timeout": 11,
+      "closed": 11
+    },
+    "active": {
+      "negotiating": 1
+    },
+    "active_total": 1,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 17,
+    "udp_states": []
+  },
+  {
+    "time": 1793522740.8296251,
+    "metrics": {
+      "accepted": 14,
+      "upstream_auth_timeout": 11,
+      "closed": 11
+    },
+    "active": {
+      "negotiating": 3
+    },
+    "active_total": 3,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 21,
+    "udp_states": []
+  },
+  {
+    "time": 1793522746.8362348,
+    "metrics": {
+      "accepted": 16,
+      "upstream_auth_timeout": 12,
+      "closed": 12
+    },
+    "active": {
+      "negotiating": 4
+    },
+    "active_total": 4,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 23,
+    "udp_states": []
+  },
+  {
+    "time": 1793522752.8435593,
+    "metrics": {
+      "accepted": 22,
+      "upstream_auth_timeout": 16,
+      "closed": 16
+    },
+    "active": {
+      "negotiating": 6
+    },
+    "active_total": 6,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 27,
+    "udp_states": []
+  },
+  {
+    "time": 1793522758.8515606,
+    "metrics": {
+      "accepted": 22,
+      "upstream_auth_timeout": 21,
+      "closed": 21
+    },
+    "active": {
+      "negotiating": 1
+    },
+    "active_total": 1,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 17,
+    "udp_states": []
+  },
+  {
+    "time": 1793522758.8515606,
+    "metrics": {
+      "accepted": 22,
+      "upstream_auth_timeout": 21,
+      "closed": 21
+    },
+    "active": {
+      "negotiating": 1
+    },
+    "active_total": 1,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 17,
+    "udp_states": []
+  },
+  {
+    "time": 1793522764.8601048,
+    "metrics": {
+      "accepted": 23,
+      "upstream_auth_timeout": 22,
+      "closed": 22
+    },
+    "active": {
+      "negotiating": 1
+    },
+    "active_total": 1,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 17,
+    "udp_states": []
+  },
+  {
+    "time": 1793522770.8679664,
+    "metrics": {
+      "accepted": 24,
+      "upstream_auth_timeout": 23,
+      "closed": 23
+    },
+    "active": {
+      "negotiating": 1
+    },
+    "active_total": 1,
+    "completed_dns": 0,
+    "node_limit": 32,
+    "global_limit": 64,
+    "open_fds": 17,
+    "udp_states": []
+  }
+]

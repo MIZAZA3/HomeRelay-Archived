@@ -1,0 +1,36 @@
+[Unit]
+Description=HomeRelay Direct V4 controller and standard encrypted proxy ingress
+Requires=home-relay-direct-firewall.service
+After=network.target home-relay-direct-firewall.service
+[Service]
+Type=simple
+User=home-relay-v2
+Group=home-relay-v2
+StateDirectory=home-relay-v2
+StateDirectoryMode=0700
+WorkingDirectory=/opt/home-relay-v2
+LoadCredential=access.json:/etc/home-relay-v2/access.json
+ExecStart=/usr/bin/python3 /opt/home-relay-v2/controller.py
+Restart=on-failure
+RestartSec=3
+UMask=0077
+KillMode=control-group
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectSystem=strict
+ProtectHome=yes
+InaccessiblePaths=/opt/1panel /etc/ssh -/run/docker.sock -/var/lib/docker
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+SocketBindDeny=any
+SocketBindAllow=ipv4:tcp:18780-18781
+SocketBindAllow=ipv4:tcp:23000-23031
+SocketBindAllow=ipv4:tcp:25000-25031
+SocketBindAllow=ipv4:tcp:24443-24474
+SocketBindAllow=ipv4:udp
+CPUQuota=25%
+MemoryMax=256M
+TasksMax=128
+LimitNOFILE=2048
+[Install]
+WantedBy=multi-user.target
